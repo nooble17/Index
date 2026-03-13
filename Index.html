@@ -582,8 +582,8 @@
         <!-- Navbar -->
         <nav class="navbar">
             <div class="logo">
-                <i class="fas fa-university"></i>
-                <span>NexusBank</span>
+               <a href="/HTML/loginA.html" style=" text-decoration: none; color: white;"><i class="fas fa-university"></i>
+                <span>NexusBank</span></a> 
             </div>
             
             <div class="nav-links">
@@ -603,6 +603,7 @@
             <div class="nav-buttons">
                 <button class="btn btn-login">Iniciar Sesión</button>
                 <button class="btn btn-register">Registro</button>
+                
             </div>
         </nav>
         
@@ -836,13 +837,13 @@
         
         // Simular funcionalidad de los botones de inicio de sesión y registro
         document.querySelector('.btn-login').addEventListener('click', function() {
-            alert('Redirigiendo a la página de inicio de sesión...');
-            window.location.href = "/login.html"
+            window.location.href = "/HTML/login.html"
         });
         
         document.querySelector('.btn-register').addEventListener('click', function() {
             alert('Redirigiendo a la página de registro...');
             // Aquí iría la lógica para redirigir al registro
+             window.location.href = "/HTML/registro.html"
         });
         
         // Mobile menu functionality
